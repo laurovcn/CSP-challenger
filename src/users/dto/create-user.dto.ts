@@ -10,6 +10,11 @@ export class CreateUserDto {
   
   @ApiProperty()  
   email: string;
-  
+
+  @ApiProperty() 
+  phones: [{
+    number: string;    
+    }
+  ]
 }
 
