@@ -53,3 +53,9 @@ You can run  npx @compodoc/compodoc -p tsconfig.json -s
 then access localhost:8080  
 ```
 
+## Swagget to test the API
+```
+You can acess localhost:3001/api and enjoy (: 
+```
+
+
