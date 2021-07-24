@@ -7,7 +7,7 @@ export class Phone {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column({unique: true})
+    @Column()
     number: string;
 
     @Column()

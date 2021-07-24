@@ -16,7 +16,7 @@ export class User{
   email: string; 
 
   @OneToMany(() => Phone, phone => phone.user, {
-    cascade:true, eager: true
+    cascade:true, eager: true,  nullable: false,
   })
     phones: Phone[];
 
