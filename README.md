@@ -43,6 +43,8 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+$ your api is running at port 3001
 ```
 
 ## Test
