@@ -47,3 +47,9 @@ $ npm run start:prod
 $ Your api is running at port 3001
 ```
 
+## Documentation
+```
+You can run  npx @compodoc/compodoc -p tsconfig.json -s  
+then access localhost:8080  
+```
+
